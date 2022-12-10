@@ -53,13 +53,13 @@ datanames <- colnames(totaldata)
   #define shorthand
 replace<- c("mean\\(\\)","std\\(\\)", "tBody","fBody", "tGravity","Mag","Gyro","Acc","Jerk","Y","X","Z","-","BodyBody")
   #define descriptive replacements
-replacements <- c("Mean", "Standard Dev", "Time: Body", "Frequency: Body", "Time: Gravity", " Magnitude", " Gyroscope", " Acceleration", " Jerk", "Y Axis", "X Axis", "Z Axis", " ", "Body")
+replacements <- c("Mean", "Standard Dev", "Time: Body", "Frequency: Body", "Time: Gravity", " Magnitude", " Angular Velocity", " Linear Acceleration", " Jerk", "Y Axis", "X Axis", "Z Axis", " ", "Body")
   #replace
 for(i in 1:length(replace)) {
   datanames <- str_replace_all(datanames, replace[i], replacements[i])
 }
   #apply finalnames to totaldata
-colnames(totaldata) <- finalnames
+colnames(totaldata) <- datanames
 
 #PRINT FINAL DATASET
 print(totaldata)

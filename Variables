@@ -1,0 +1,85 @@
+Variables
+==============
+***Individual measurements in Total Data
+***Means of values by subject and Activity Lable in Tidy Data
+
+Each subject is labeled 1:30
+Each activity is labeled as either: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+(Variable descripts adapted from resource material)
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+Final List of Variables:
+ [1] "Subject"
+ [2] "Label"
+ [3] "Time: Body Linear Acceleration Mean X Axis"                     
+ [4] "Time: Body Linear Acceleration Mean Y Axis"                     
+ [5] "Time: Body Linear Acceleration Mean Z Axis"                     
+ [6] "Time: Body Linear Acceleration Standard Dev X Axis"             
+ [7] "Time: Body Linear Acceleration Standard Dev Y Axis"             
+ [8] "Time: Body Linear Acceleration Standard Dev Z Axis"             
+ [9] "Time: Gravity Linear Acceleration Mean X Axis"                  
+[10] "Time: Gravity Linear Acceleration Mean Y Axis"                  
+[11] "Time: Gravity Linear Acceleration Mean Z Axis"                  
+[12] "Time: Gravity Linear Acceleration Standard Dev X Axis"          
+[13] "Time: Gravity Linear Acceleration Standard Dev Y Axis"          
+[14] "Time: Gravity Linear Acceleration Standard Dev Z Axis"          
+[15] "Time: Body Linear Acceleration Jerk Mean X Axis"                
+[16] "Time: Body Linear Acceleration Jerk Mean Y Axis"                
+[17] "Time: Body Linear Acceleration Jerk Mean Z Axis"                
+[18] "Time: Body Linear Acceleration Jerk Standard Dev X Axis"        
+[19] "Time: Body Linear Acceleration Jerk Standard Dev Y Axis"        
+[20] "Time: Body Linear Acceleration Jerk Standard Dev Z Axis"        
+[21] "Time: Body Angular Velocity Mean X Axis"                        
+[22] "Time: Body Angular Velocity Mean Y Axis"                        
+[23] "Time: Body Angular Velocity Mean Z Axis"                        
+[24] "Time: Body Angular Velocity Standard Dev X Axis"                
+[25] "Time: Body Angular Velocity Standard Dev Y Axis"                
+[26] "Time: Body Angular Velocity Standard Dev Z Axis"                
+[27] "Time: Body Angular Velocity Jerk Mean X Axis"                   
+[28] "Time: Body Angular Velocity Jerk Mean Y Axis"                   
+[29] "Time: Body Angular Velocity Jerk Mean Z Axis"                   
+[30] "Time: Body Angular Velocity Jerk Standard Dev X Axis"           
+[31] "Time: Body Angular Velocity Jerk Standard Dev Y Axis"           
+[32] "Time: Body Angular Velocity Jerk Standard Dev Z Axis"           
+[33] "Time: Body Linear Acceleration Magnitude Mean"                  
+[34] "Time: Body Linear Acceleration Magnitude Standard Dev"          
+[35] "Time: Gravity Linear Acceleration Magnitude Mean"               
+[36] "Time: Gravity Linear Acceleration Magnitude Standard Dev"       
+[37] "Time: Body Linear Acceleration Jerk Magnitude Mean"             
+[38] "Time: Body Linear Acceleration Jerk Magnitude Standard Dev"     
+[39] "Time: Body Angular Velocity Magnitude Mean"                     
+[40] "Time: Body Angular Velocity Magnitude Standard Dev"             
+[41] "Time: Body Angular Velocity Jerk Magnitude Mean"                
+[42] "Time: Body Angular Velocity Jerk Magnitude Standard Dev"        
+[43] "Frequency: Body Linear Acceleration Mean X Axis"                
+[44] "Frequency: Body Linear Acceleration Mean Y Axis"                
+[45] "Frequency: Body Linear Acceleration Mean Z Axis"                
+[46] "Frequency: Body Linear Acceleration Standard Dev X Axis"        
+[47] "Frequency: Body Linear Acceleration Standard Dev Y Axis"        
+[48] "Frequency: Body Linear Acceleration Standard Dev Z Axis"        
+[49] "Frequency: Body Linear Acceleration Jerk Mean X Axis"           
+[50] "Frequency: Body Linear Acceleration Jerk Mean Y Axis"           
+[51] "Frequency: Body Linear Acceleration Jerk Mean Z Axis"           
+[52] "Frequency: Body Linear Acceleration Jerk Standard Dev X Axis"   
+[53] "Frequency: Body Linear Acceleration Jerk Standard Dev Y Axis"   
+[54] "Frequency: Body Linear Acceleration Jerk Standard Dev Z Axis"   
+[55] "Frequency: Body Angular Velocity Mean X Axis"                   
+[56] "Frequency: Body Angular Velocity Mean Y Axis"                   
+[57] "Frequency: Body Angular Velocity Mean Z Axis"                   
+[58] "Frequency: Body Angular Velocity Standard Dev X Axis"           
+[59] "Frequency: Body Angular Velocity Standard Dev Y Axis"           
+[60] "Frequency: Body Angular Velocity Standard Dev Z Axis"           
+[61] "Frequency: Body Linear Acceleration Magnitude Mean"             
+[62] "Frequency: Body Linear Acceleration Magnitude Standard Dev"     
+[63] "Frequency: Body Linear Acceleration Jerk Magnitude Mean"        
+[64] "Frequency: Body Linear Acceleration Jerk Magnitude Standard Dev"
+[65] "Frequency: Body Angular Velocity Magnitude Mean"                
+[66] "Frequency: Body Angular Velocity Magnitude Standard Dev"        
+[67] "Frequency: Body Angular Velocity Jerk Magnitude Mean"           
+[68] "Frequency: Body Angular Velocity Jerk Magnitude Standard Dev"  
